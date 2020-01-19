@@ -1,18 +1,9 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![Ryerson](images/rvl_me.png)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+My name is Matthew Kowal. I am a masters student at the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) in Toronto, co-supervised by [Dr. Neil Bruce](https://cs.ryerson.ca/~bruce/) and [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/). My research focuses on how we can better understand the world around us using neural networks and unlabelled data. In particular, I am currently working on action recognition with multi-modal and unsupervised data as well as semantic segmentation using weak supervision. I am also interested in how information theory can be used to better formulate traditional machine learning problems.
