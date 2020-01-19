@@ -23,7 +23,10 @@ As Erik points out in his document, entropy is a function of two things: 1) the 
 
 On top of this, if the roullete wheel is *rigged* to always come up as 15 lets say, then since the probability of it landing on 6 is 100%, the entropy is very low. To formalize the entropy of a discrete random variable $X$ that takes on the values $X = \{x_1, x_2, ..., x_n\}$ and is definied by a probability distribution $P(X)$, we can write:
 
-
+\[{
+x+y+z\\
++w
+}\]
 
 
 ### Joint Entropy
