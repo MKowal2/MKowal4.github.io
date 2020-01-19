@@ -21,9 +21,9 @@ As Erik points out in his document, entropy is a function of two things: 1) the 
 
 >  Consider a random variable X representing the number that comes up on a roulette wheel and a random variable Y representing the number that comes up on a fair 6-sided die. The entropy of X is greater than the entropy of Y. In addition to the numbers 1 through 6, the values on the roulette wheel can take on the values 7 through 36. In some sense, it is less predictable.
 
-On top of this, if the roullete wheel is *rigged* to always come up as 15 lets say, then since the probability of it landing on 6 is 100%, the entropy is very low. To formalize the entropy of a discrete random variable $X$ that takes on the values in the set $\Chi = \{x_1, x_2, ..., x_n\}$ and is definied by a probability distribution $P(X)$, we can write:
+On top of this, if the roullete wheel is *rigged* to always come up as 15 lets say, then since the probability of it landing on 6 is 100%, the entropy is very low. To formalize the entropy of a discrete random variable $X$ that takes on the values in the set $\chi = \{x_1, x_2, ..., x_n\}$ and is definied by a probability distribution $P(X)$, we can write:
 
-$H(X)=-sum_{x\in\Chi}P(x)logP(x)$
+$H(X)=-\sum_{x\in\chi}P(x)logP(x)$
 
 
 ### Joint Entropy
