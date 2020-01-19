@@ -8,3 +8,6 @@
 layout: home
 ---
 Hi there! Welcome to the Low Loss Blog, a place where I document my attempts to become a better researcher and try to understand the reasons why the neural networks I am training aren't (or are!) learning what they are supposed to. I am hoping that people reading this can learn from the the gaps in my own knowledge that I have (fingers crossed) filled in. To read this blog, I assume an undergraduate level of understanding in probability, calculus, and linear algebra. However if you don't have this background, I hope that the intuition I give along with the mathematical formalisms can also aid you in your understanding of these concepts as all concepts I will cover in this blog will have tangible implecations outside of the realm of theoretical mathematics.
+
+
+## Blog Posts
