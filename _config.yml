@@ -13,8 +13,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: MatthewKowal9
+    github:  MKowal2
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
