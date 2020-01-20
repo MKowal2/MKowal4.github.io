@@ -11,7 +11,7 @@ For this post I hope to accomplish a few different things. I will review a brill
 
 ### Entropy
 
-When I started to dig into what mutual information really represents, the word I kept running into was: Entropy. Now I heard about entropy way back in highschool chemistry and physics but I'll be perfectly honest; I had no real understanding of the term, especially since I couldn't see how it could seemingly be so related to every field of science. So, what does *entropy* mean?
+When I started to dig into what mutual information really represents, a certain word kept popping up: Entropy. Now I heard about entropy way back in highschool chemistry and physics but I'll be perfectly honest; I had no real understanding of the term, especially since I couldn't see how it could seemingly be so related to every field of science. So, what does *entropy* mean?
 
 Entropy refers to the amount of uncertainty that an event has. If an event A has multiple outcomes, and you have no idea which outcome will occur, the event A has *high* entropy. For example, if you roll a fair 6-sided die, this event has a high entropy because each number is equally likely to appear during the roll. If event B has multiple outcomes, and you are very certain about the outcome, the event has *low* entropy. For example, if event is whether or not the sun will come up tomorrow, this event (hopefully) has a low entropy, since we are confident that the sun will come up tomorrow morning. 
 
@@ -24,6 +24,8 @@ On top of this, if the roullete wheel is *rigged* to always come up as 15 lets s
 \begin{equation}
 H(X)=-\sum_{x\in\chi}P(x)logP(x)
 \end{equation}
+
+Where $H(X)$ is the entropy of the random variable $X$. One interesting tidbit Erik throws in there is that there are different units to represent entropy in. The entropy is expressed in *bits* if the log has a base of 2, but is expressed in *nats* if the log has a base of 10. I personally like the sound of nats more, but bits is by far more commonly used. 
 
 
 ### Joint Entropy
