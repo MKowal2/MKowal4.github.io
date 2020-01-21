@@ -1,8 +1,9 @@
-title: Low Loss Blog
+title: Matt Kowal's Blog
 author: Matthew Kowal
 email: matthew.kowal@ryerson.ca
 description: > # this means to ignore newlines until "show_excerpts:"
-  Join me in learning how to better teach machines to learn. Feel free to get in touch over email or twitter. :)
+  Computer Vision // Mathematics // Deep Learning
+  Finding ways to better train neural networks. 
 
 show_excerpts: false # set to true to show excerpts on the homepage
 use_math: true
