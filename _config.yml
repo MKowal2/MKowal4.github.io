@@ -3,7 +3,7 @@ author: Matthew Kowal
 email: matthew.kowal@ryerson.ca
 description: > # this means to ignore newlines until "show_excerpts:"
   Computer Vision // Mathematics // Deep Learning
-  Finding ways to better train neural networks. 
+   Finding better ways to train neural networks. 
 
 show_excerpts: false # set to true to show excerpts on the homepage
 use_math: true
