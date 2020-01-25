@@ -33,7 +33,7 @@ Where $H(X)$ is the entropy of the random variable $X$. One interesting tidbit E
 The next thing to understand, when the end goal is to understand mutual information, is the intuition behind joint entropy. Now joint entropy is very similar to entropy, except that joint entropy is the entropy of *two* events occuring. We again denote these events as random variables $X$ and $Y$ and the question "what is the joint entropy of $X$ and $Y$?" can be understood as "how uncertain are we about the outcome of events $X$ and $Y$ when they occur?". Not surprisingly, the equation is the same as the equation for entropy, except the summation is over both random variables. 
 
 \begin{equation}
-H(X)=-\sum_{y\in\Y}\sum_{x\in\chi}P(x)logP(x)
+H(X)=-\sum_{y\inY}\sum_{x\in\chi}P(x)logP(x)
 \end{equation}
 
 ### Mutual Information
