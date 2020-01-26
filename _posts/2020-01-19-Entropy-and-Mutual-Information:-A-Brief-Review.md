@@ -36,5 +36,8 @@ The next thing to understand, when the end goal is to understand mutual informat
 H(X)=-\sum_{y\inY}\sum_{x\in\chi}P(x)logP(x)
 \end{equation}
 
+One thing that helps me understand some of the intuition behind these equations is viewing it as a weighted average of sorts. You know when you calculate grades for a class? You take the sum of the grades you have, multiplied by the weight of each grade, right? Well its exact same for entropy and joint entropy, except the 'grades' are the uncertainty (or *information content*) and the weighting of each uncertainty value is the probability of that(those) specific event(s) occuring, summed over all possible events.
+
 ### Mutual Information
+
 
