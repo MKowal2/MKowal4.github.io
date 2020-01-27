@@ -10,7 +10,7 @@ layout: home
 
 ![Ryerson](images/profile_rvl.png)
 
-Hi there! Welcome to my website. I have some information about me, research I am doing, and a blog. 
+Hi there! Welcome to my website. I have some information about me, the research I am doing, and a blog. 
 
 
 ## Blog Posts
