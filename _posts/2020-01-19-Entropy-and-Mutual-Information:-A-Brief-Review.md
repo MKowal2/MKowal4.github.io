@@ -40,4 +40,9 @@ One thing that helps me understand some of the intuition behind these equations 
 
 ### Mutual Information
 
+On a high level, mutual information is a value that quantifies how much information knowing one random variable gives you about another when they are sampled simultaneously. An important theory of information theory is that the mutual information of two random variables is 0 if and only if they are *statistically independant*. For example, if $X$ represents the value of spinning a roulette wheel, and $Y$ represents the value of spinning a different roulette wheel, the mutual information between $X$ and $Y$ is 0. However if $X$ represents the color of the roulette wheel, and $Y$ represents the number, then they share some mutual information, as only certain numbers are found on certain colors of the roulette wheel. To formalize the definition of mutual information of random variables &X& and &Y&,
+
+\begin{equation}
+I(X ; Y)=\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} P(x, y) \log \frac{P(x, y)}{P(x) P(y)}
+\end{equation}
 
