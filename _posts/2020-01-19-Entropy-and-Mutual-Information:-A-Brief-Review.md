@@ -19,10 +19,10 @@ As Erik points out in his document, entropy is a function of two things: 1) the 
 
 >  Consider a random variable X representing the number that comes up on a roulette wheel and a random variable Y representing the number that comes up on a fair 6-sided die. The entropy of X is greater than the entropy of Y. In addition to the numbers 1 through 6, the values on the roulette wheel can take on the values 7 through 36. In some sense, it is less predictable.
 
-On top of this, if the roullete wheel is *rigged* to always come up as 15 lets say, then since the probability of it landing on 6 is 100%, the entropy is very low. To formalize the entropy of a discrete random variable $X$ that takes on the values in the set $X = \{x_1, x_2, ..., x_n\}$ and is definied by a probability distribution $P(X)$, we can write:
+On top of this, if the roullete wheel is *rigged* to always come up as 15 lets say, then since the probability of it landing on 6 is 100%, the entropy is very low. To formalize the entropy of a discrete random variable $X$ that takes on the values in the set $\mathcal{X} = \{x_1, x_2, ..., x_n\}$ and is definied by a probability distribution $P(X)$, we can write:
 
 \begin{equation}
-H(X)=-\sum_{x\in X}P(x)logP(x)
+H(X)=-\sum_{x\in \mathcal{X}}P(x)logP(x)
 \end{equation}
 
 Where $H(X)$ is the entropy of the random variable $X$. One interesting tidbit Erik throws in there is that there are different units to represent entropy in. The entropy is expressed in *bits* if the log has a base of 2, but is expressed in *nats* if the log has a base of 10. I personally like the sound of nats more, but bits is by far more commonly used. 
@@ -33,10 +33,10 @@ Where $H(X)$ is the entropy of the random variable $X$. One interesting tidbit E
 The next thing to understand, when the end goal is to understand mutual information, is the intuition behind joint entropy. Now joint entropy is very similar to entropy, except that joint entropy is the entropy of *two* events occuring. We again denote these events as random variables $X$ and $Y$ and the question "what is the joint entropy of $X$ and $Y$?" can be understood as "how uncertain are we about the outcome of events $X$ and $Y$ when they occur?". Not surprisingly, the equation is the same as the equation for entropy, except the summation is over both random variables. 
 
 \begin{equation}
-H(X)=-\sum_{y \in Y}\sum_{x\in X}P(x)logP(x)
+H(X)=-\sum_{y \in \mathcal{Y}}\sum_{x\in \mathcal{X}}P(x)logP(x)
 \end{equation}
 
-One thing that helps me understand some of the intuition behind these equations is viewing it as a weighted average of sorts. You know when you calculate grades for a class? You take the sum of the grades you have, multiplied by the weight of each grade, right? Well its exact same for entropy and joint entropy, except the 'grades' are the uncertainty (or *information content*) and the weighting of each uncertainty value is the probability of that(those) specific event(s) occuring, summed over all possible events.
+One thing that helps me understand some of the intuition behind these equations is viewing it as an *expectation* (basically a weighted average). You know when you calculate grades for a class? You take the sum of the grades you have, multiplied by the weight of each grade, right? Well its exact same for entropy and joint entropy, except the 'grades' are the uncertainty (or *information content*) and the weighting of each uncertainty value is the probability of that(those) specific event(s) occuring, summed over all possible events.
 
 ### Mutual Information
 
@@ -46,3 +46,9 @@ On a high level, mutual information is a value that quantifies how much informat
 I(X ; Y)=\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} P(x, y) \log \frac{P(x, y)}{P(x) P(y)}
 \end{equation}
 
+Similar to the intuition as before, we can understand this equation as the expectation of shared information between random variables $X$ and $Y$. $P(x, y)$ is the weighting while $\log \frac{P(x, y)}{P(x) P(y)}$ is the mutual information for an individual outcome. So to calculate the total mutual information, we just sum over all possible events: $\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}}$
+
+
+### Conclusions
+
+We can really view joint entropy and mutual information as expectations (i.e. basically a weighted average) measuring information and information sharing between random variables. I hope this can help some of you gain a better intuition behind what entropy, joint entropy, and mutual information is. See you next time and keep learning :) . 
