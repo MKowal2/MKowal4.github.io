@@ -46,7 +46,7 @@ On a high level, mutual information is a value that quantifies how much informat
 I(X ; Y)=\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} P(x, y) \log \frac{P(x, y)}{P(x) P(y)}
 \end{equation}
 
-Similar to the intuition as before, we can understand this equation as the expectation of shared information between random variables $X$ and $Y$. $P(x, y)$ is the weighting while $\log \frac{P(x, y)}{P(x) P(y)}$ is the mutual information for an individual outcome. So to calculate the total mutual information, we just sum over all possible events: $\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}}$
+Similar to the intuition as before, we can understand this equation as the expectation of shared information between random variables $X$ and $Y$. $P(x, y)$ is the weighting while $\log \frac{P(x, y)}{P(x) P(y)}$ is the mutual information for an individual outcome. The mutual information for an individual outcome can be understood to be measuring the difference ($\log) between the two sampled random variables ($x,y$) if they are statistically *dependant* ($\frac{P(x, y)}$) compared to if they are statistically *independant* ($P(x) P(y)$). Then, to calculate the total mutual information, we just sum over all possible events: $\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}}$
 
 
 ### Conclusions
