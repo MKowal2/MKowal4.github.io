@@ -56,13 +56,13 @@ In a recent ICCV 2019 [paper](https://arxiv.org/abs/1807.06653), the authors use
 P=\frac{1}{n} \sum_{i=1}^{n} \Phi\left(x_{i} \right) \cdot \Phi\left(x_{i}^{\prime}\right)^{\top}
 \end{equation}
 
-where $\Phi$ is the neural network, $x_{i}$ is the initial image, $x_{i}^{\prime}$ is the transformed image, and $n$ is the number of classes (i.e. the length of the softmax distribution). Then to calculate the mutual information, you just use the mutual information equation:
+where $\Phi$ is the neural network, $x_{i}$ is the initial image, $x_{i}^{\prime}$ is the transformed image, and $n$ is the number of dataset examples. Then to calculate the mutual information, you just use the mutual information equation:
 
 \begin{equation}
 I\left(z, z^{\prime}\right)=I(P)=\sum_{c=1}^{C} \sum_{c^{\prime}=1}^{C} P_{c c^{\prime}} \cdot \ln \frac{P_{c c^{\prime}}}{P_{c} \cdot P_{c^{\prime}}}
 \end{equation}
 
-where $c$ is the class of the first image, and $c^{\prime}$ is the class of the second image. Here is a good diagram they have in the paper to visualize the process (the overclustering head is just a way to make use of extra unlabelled data):
+where $c$ is the class of the first image, $c^{\prime}$ is the class of the second image, and $C$ is the number of classes (i.e. the length of the softmax distribution). Here is a good diagram they have in the paper to visualize the process (the overclustering head is just a way to make use of extra unlabelled data):
 
 ![IIC](images/iic_diagram)
 
