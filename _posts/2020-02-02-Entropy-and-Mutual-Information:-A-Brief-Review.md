@@ -53,13 +53,13 @@ Similar to the intuition as before, we can understand this equation as the expec
 In a recent ICCV 2019 [paper](https://arxiv.org/abs/1807.06653), the authors used mutual information as a learning objective for the task of unsupervised image clustering. What I really liked about this work was the simplicity of the implementation, with the code to calculate mutual information being only a few lines or so. Specifically, they feed an image through a neural network twice, once with the normal image, and once with a transformation applied (e.g. hue, saturation, brightness, rotation, etc.). They can then take the two outputs of the neural network, which are in the format of [softmax](https://en.wikipedia.org/wiki/Softmax_function) probability distributions. They then calculate the joint probability distribution by multiplying the softmax distributions together (one transposed) which takes the form of:
 
 \begin{equation}
-P=\frac{1}{n} \sum{i=1}^{n} \Phi\left( \mathbf{x}{i} \right) \cdot \Phi\left( \mathbf{x}{i}^{\prime}\right)^{\top}
+P=\frac{1}{n} \sum_{i=1}^{n} \Phi\left(x_{i} \right) \cdot \Phi\left(x_{i}^{\prime}\right)^{\top}
 \end{equation}
 
-where $\Phi$ is the neural network, $\mathbf{x}_{i}$ is the initial image, $\mathbf{x}_{i}^{\prime}$ is the transformed image, and $n$ is the number of classes (i.e. the length of the softmax distribution). Then to calculate the mutual information, you just use the mutual information equation:
+where $\Phi$ is the neural network, $x_{i}$ is the initial image, $x_{i}^{\prime}$ is the transformed image, and $n$ is the number of classes (i.e. the length of the softmax distribution). Then to calculate the mutual information, you just use the mutual information equation:
 
 \begin{equation}
-I\left(z, z^{\prime}\right)=I(\mathbf{P})=\sum_{c=1}^{C} \sum_{c^{\prime}=1}^{C} \mathbf{P}_{c c^{\prime}} \cdot \ln \frac{\mathbf{P}_{c c^{\prime}}}{\mathbf{P}_{c} \cdot \mathbf{P}_{c^{\prime}}}
+I\left(z, z^{\prime}\right)=I(P)=\sum_{c=1}^{C} \sum_{c^{\prime}=1}^{C} P_{c c^{\prime}} \cdot \ln \frac{P_{c c^{\prime}}}{P_{c} \cdot P_{c^{\prime}}}
 \end{equation}
 
 where $c$ is the class of the first image, and $c^{\prime}$ is the class of the second image. 
