@@ -48,6 +48,11 @@ I(X ; Y)=\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} P(x, y) \log \frac{P(
 
 Similar to the intuition as before, we can understand this equation as the expectation of shared information between random variables $X$ and $Y$. $P(x, y)$ is the weighting while $\log \frac{P(x, y)}{P(x) P(y)}$ is the mutual information for an individual outcome. The mutual information for an individual outcome can be understood to be measuring the difference ($\log$) between the two sampled random variables, $x$ and $y$, if they are statistically *dependant* ($P(x, y)$) compared to if they are statistically *independant* ($P(x) P(y)$). Then, to calculate the total mutual information, we just sum over all possible events: $\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}}$
 
+### Information Invariant Clustering
+
+In a recent ICCV 2019 [paper](https://arxiv.org/abs/1807.06653), the authors used mutual information as a learning objective for the task of unsupervised image clustering. What I really liked about this work was the simplicity of the implementation, with the code to calculate mutual information being only a few lines or so. Specifically, they feed an image through a neural network twice, once with the normal image, and once with a transformation applied. They can then take the two outputs of the neural network, which are in the format of [softmax](https://en.wikipedia.org/wiki/Softmax_function) probability distributions. They then calculate the joint probability distribution by multiplying the softmax distributions together (one transposed) which takes the form of:
+
+
 
 ### Conclusions
 
