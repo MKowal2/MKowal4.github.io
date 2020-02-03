@@ -68,7 +68,7 @@ where $c$ is the class of the first image, $c^{\prime}$ is the class of the seco
   <img src="/images/iic_diagram.png" height="400">
 </p>
 
-In my work, I am attempting to implement information invariant clustering for the task of unsupervised video clustering. The interesting thing seems to be how to use the temporal dimension during the transformation process. I.e. do we just take random samples of the same video? Or should we constrain the starting frame to be near the original videos starting frame so the network can learn to distill more information? We will see as I will be running some experiments over the next few weeks to explore this idea.
+In my own work, I am attempting to implement information invariant clustering for the task of unsupervised video clustering. The interesting thing seems to be how to use the temporal dimension during the transformation process. I.e. do we just take random samples of the same video? Or should we constrain the starting frame to be near the original videos starting frame so the network can learn to distill more information? We will see as I will be running some experiments over the next few weeks to explore this idea.
 
 ### Conclusions
 
