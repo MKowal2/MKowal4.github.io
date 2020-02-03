@@ -48,7 +48,7 @@ I(X ; Y)=\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} P(x, y) \log \frac{P(
 
 Similar to the intuition as before, we can understand this equation as the expectation of shared information between random variables $X$ and $Y$. $P(x, y)$ is the weighting while $\log \frac{P(x, y)}{P(x) P(y)}$ is the mutual information for an individual outcome. The mutual information for an individual outcome can be understood to be measuring the difference ($\log$) between the two sampled random variables, $x$ and $y$, if they are statistically *dependant* ($P(x, y)$) compared to if they are statistically *independant* ($P(x) P(y)$). Then, to calculate the total mutual information, we just sum over all possible events: $\sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}}$
 
-### Information Invariant Clustering
+### Application: Information Invariant Clustering
 
 In a recent ICCV 2019 [paper](https://arxiv.org/abs/1807.06653), the authors used mutual information as a learning objective for the task of unsupervised image clustering. What I really liked about this work was the simplicity of the implementation, with the code to calculate mutual information being only a few lines or so. Specifically, they feed an image through a neural network twice, once with the normal image, and once with a transformation applied (e.g. hue, saturation, brightness, rotation, etc.). They can then take the two outputs of the neural network, which are in the format of [softmax](https://en.wikipedia.org/wiki/Softmax_function) probability distributions. They then calculate the joint probability distribution by multiplying the softmax distributions together (one transposed) which takes the form of:
 
@@ -62,9 +62,9 @@ where $\Phi$ is the neural network, $x_{i}$ is the initial image, $x_{i}^{\prime
 I\left(z, z^{\prime}\right)=I(P)=\sum_{c=1}^{C} \sum_{c^{\prime}=1}^{C} P_{c c^{\prime}} \cdot \ln \frac{P_{c c^{\prime}}}{P_{c} \cdot P_{c^{\prime}}}
 \end{equation}
 
-where $c$ is the class of the first image, and $c^{\prime}$ is the class of the second image. 
+where $c$ is the class of the first image, and $c^{\prime}$ is the class of the second image. Here is a good diagram they have in the paper to visualize the process (the overclustering head is just a way to make use of extra unlabelled data):
 
-![IIC](images/iic_diagram.png)
+![IIC](images/iic_diagram)
 
 In my work, I am attempting to implement information invariant clustering for the task of unsupervised video clustering. The interesting thing seems to be how to use the temporal dimension during the transformation process. I.e. do we just take random samples of the same video? Or should we constrain the starting frame to be near the original videos starting frame so the network can learn to distill more information? We will see as I will be running some experiments over the next few weeks to explore this idea.
 
