@@ -72,4 +72,6 @@ In my own work, I am attempting to implement information invariant clustering fo
 
 ### Conclusions
 
-We can really view joint entropy and mutual information as expectations (i.e. basically a weighted average) measuring information and information sharing between random variables. I hope this can help some of you gain a better intuition behind what entropy, joint entropy, and mutual information is. See you next time and keep learning :) . 
+We can really view joint entropy and mutual information as expectations (i.e. basically a weighted average) measuring information and information sharing between random variables. We also got to see a really interesting application of mutual information being used for the task of unsupervised image clustering, where the tractability of mutual information stems from treating the softmax output of the network as a probability distribution in the calculations. 
+
+I hope this can help some of you gain a better intuition behind what entropy, joint entropy, and mutual information is. See you next time and keep learning :) . 
