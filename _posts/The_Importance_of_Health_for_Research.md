@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Entropy and Mutual Information: A Brief Overview"
+title: "The Importance of Health for Research"
 author: "Matthew Kowal"
 meta: "Springfield"
 --- 
+
