@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Importance of Health for ML Research"
+title: "Some Health Tips for Computer Scientists"
 author: "Matthew Kowal"
 meta: "Springfield"
 --- 
@@ -12,9 +12,15 @@ Intro
 
 Points to cover:
 - Erganomics
-    Band pull aparts for posture
-    Typing (neutral grip)
+    Band pull aparts for posture (link john rusin video / bands)
+    Typing and mouse (neutral grip)
 - Vitamin D
 - Night mode / blue light
 - Exercise
 - Sauna
+
+Other resources
+- Becoming a supple leopard
+- 
+
+[About 17% of Canadians work at a computer daily](https://www150.statcan.gc.ca/n1/pub/75-001-x/00501/5724-eng.html).
