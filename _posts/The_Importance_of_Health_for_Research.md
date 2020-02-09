@@ -12,7 +12,7 @@ Intro
 
 Points to cover:
 - Erganomics
-    Band pull aparts for posture (link john rusin video / bands)
+    Band pull aparts for posture [Rusin band video](https://www.youtube.com/watch?v=0bCp7Cbdt2I&fbclid=IwAR35gJGKPICzldU-3MdIZblCh6QJSzJMHlbBxf1Cde_LKyONMsqPJsEuRac)
     Typing and mouse (neutral grip)
     Thoracic spine mobilizations
 - Vitamin D
