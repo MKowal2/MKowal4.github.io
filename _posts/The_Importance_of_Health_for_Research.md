@@ -31,3 +31,5 @@ Other resources
 In my opinion, there are two ways to define how one uses a computer. There is the actual programs, algorithms, operating systems, websites, (etc...) that one uses on the computer (e.g., Facebook, Reddit, Python, PyTorch, Linux, etc.). But then there is the way you physically interact with the computer. This includes posture, screen brightness, time spent on a computer, etc. *Both* are important variables to your overall physical *and* mental health, but in this post I am going to focus on the later, i.e. how you can physically interact with the computer (as well as some stuff that is good for you in general). 
 
 ### 
+
+[Deactivating Facebook has been shown to imrove well being](https://web.stanford.edu/~gentzkow/research/facebook.pdf).
