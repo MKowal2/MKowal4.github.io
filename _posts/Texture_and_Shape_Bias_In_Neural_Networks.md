@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Texture and Shape Bias in Neural Networks.md"
