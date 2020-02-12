@@ -9,4 +9,8 @@ It's well studied that both artificial and biological neural networks learn visu
 
 <p align="center">
   <img src="/images/feature_hierarchy.png">
+  
+  This is what you get when you maximize the activation of certain layers. Later layers Taken from [This website](https://distill.pub/2017/feature-visualization/).
 </p>
+
+
