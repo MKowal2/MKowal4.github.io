@@ -8,5 +8,5 @@ meta: "Springfield"
 It's well studied that both artificial and biological neural networks learn visual features in a heiarchical fashion. Earlier layers learning kernels that activate from lower level features like edges and blobs, while deep layers learn more complex shapes like faces or whatever the task at hand requires. 
 
 <p align="center">
-  <img src="/images/feature_hierarchy.png" height="350">
+  <img src="/images/feature_hierarchy.png">
 </p>
