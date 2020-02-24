@@ -24,3 +24,11 @@ It's well studied that both artificial convolutional neural networks and biologi
   <img src="/images/feature_hierarchy.png"> This is what you get when you maximize the activation of certain layers. Later layers are highly activated by increasingly complex visual stimuli. (Images are [from Google](https://distill.pub/2017/feature-visualization/).
 </p>
 
+You can clearly see that different layers are maximally activated by a wide range of inputs, which become increasingly complex as the layers get deeper. Now although this seems like sufficient evidence that neural networks trained for image classification learn complex shapes (see layers Mixed4d and Mixed4e), it is not quite that simple. 
+
+### Bag-of-Local Features
+
+Question: what do you think the performance of a neural network would be when trained on image classification, if you restricted the [receptive field]() to < 15% of the total image size? That is, if the model can only make predictions based on tiny image patches, how well do we expect the model to perform? The intuitive answer says the model will perform poorly, as it is restricted from viewing any object in its entirety, and can only see textures in the form of image patches. However, a recent paper ([Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet
+](https://arxiv.org/abs/1904.00760)) showed that these restricted models (named 'BagNets') actually perform close to the models that have a full receptive field and make predictions based on the entire image. This should naturally beg the question: "do our networks actually learn robust object shape?". 
+
+In the paper mentioned above, they show only marginal performance drops on ImageNet when a networks receptive field is restricted from 224x224 (image size) to 33x33, 17x17, and 9x9 patches. This is solid evidence of two things: 1) ImageNet is mostly solvable by using only 'bag-of-local features' (texture based) approaches, and 2) 
