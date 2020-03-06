@@ -13,6 +13,9 @@ layout: home
 Hi there! Welcome to my website. I have some information about me, the research I am doing, and a blog. 
 
 
+## News
+
+
 ## Blog Posts
 
 
