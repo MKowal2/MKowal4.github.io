@@ -23,7 +23,7 @@ minima:
 header_pages:
 - about.md
 - publications.md
-- Blog.md
+- blog.md
 
 # Build settings
 theme: minima
