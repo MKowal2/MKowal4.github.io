@@ -10,7 +10,12 @@ layout: home
 
 ![Ryerson](images/profile_rvl.png)
 
-Hi there! Welcome to my website. I have some information about me, the research I am doing, and a blog. 
+Welcome to my website & blog (link at the top)! My name is Matthew Kowal. I am an MSc in the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) in Toronto, co-supervised by [Dr. Neil Bruce](https://cs.ryerson.ca/~bruce/) and [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/). My research focuses on how we can better understand the world around us using neural networks and unlabelled data. In particular, I am currently working on action recognition with multi-modal and unsupervised data as well as semantic segmentation using weak supervision. I am also interested in how information theory can be used to better formulate traditional machine learning problems. I write blog posts every so often describing the things I am using in my research.
 
 
 ## News
+
+| ------------- | ------------- |
+| March 3, 2020  | AI Scientist in Residence at [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups.|
+| September 1, 2020 | Joined the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) as an MSc. Co-supervised by [Dr. Neil Bruce](https://cs.ryerson.ca/~bruce/) and [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/).|
+| ------------- | ------------- |
