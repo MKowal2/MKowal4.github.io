@@ -19,7 +19,6 @@ Welcome to my website & blog (link at the top)! My name is Matthew Kowal. I am a
 | March 3, 2020  | AI Scientist in Residence at [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups.|
 | September 1, 2020 | Joined the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) as an MSc, co-supervised by [Dr. Neil Bruce](https://cs.ryerson.ca/~bruce/) and [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/).|
 
-| Command | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| March 3, 2020 | AI Scientist in Residence at [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups. |
+| September 1, 2020 | Joined the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) as an MSc, co-supervised by [Dr. Neil Bruce](https://cs.ryerson.ca/~bruce/) and [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/). |
