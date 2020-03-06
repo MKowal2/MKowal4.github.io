@@ -14,7 +14,7 @@ Welcome to my website & blog (link at the top)! My name is Matthew Kowal. I am a
 
 
 ## News
-======
+-------
 
 * **March 24, 2020** - AI Scientist in Residence @ [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups.
 
