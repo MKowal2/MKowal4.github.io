@@ -17,6 +17,6 @@ Welcome to my website & blog (link at the top)! My name is Matthew Kowal. I am a
 
 * **March 24, 2020** - AI Scientist in Residence @ [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups.
 
-* **February 20, 2020** - Presented a poster title 'An Analysis of Structural Variant Callers' at the Cancer Big Data and AI conference held in Toronto, Canada. Presented alongside Denis Keimakh (MSc @ The University of Toronto. 
+* **February 20, 2020** - Presented a poster titled 'An Analysis of Structural Variant Callers' at the Cancer Big Data and AI conference held in Toronto, Canada. Presented alongside Denis Keimakh (MSc @ The University of Toronto). 
 
 * **September 1, 2018** - Joined the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) as an MSc, co-supervised by [Dr. Neil Bruce](https://cs.ryerson.ca/~bruce/) and [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/).
