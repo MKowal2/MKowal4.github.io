@@ -17,7 +17,7 @@ Welcome to my website & blog (link at the top)! My name is Matthew Kowal. I am a
 
 * **May, 2020** - Awarded Ontario Graduate Scholarship (OGS).
 
-* **March, 2020** - AI Scientist in Residence @ [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups.
+* **March, 2020** - Started role as AI Scientist in Residence @ [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups.
 
 * **February, 2020** - Presented a poster titled 'An Analysis of Structural Variant Callers' at the Cancer Big Data and AI conference held in Toronto, Canada. Presented alongside Denis Keimakh (MSc @ The University of Toronto). 
 
