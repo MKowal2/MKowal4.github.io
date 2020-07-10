@@ -23,8 +23,8 @@ minima:
 header_pages:
 - about.md
 - publications.md
-- blog.md
 - CV.md
+- blog.md
 
 # Build settings
 theme: minima
