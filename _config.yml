@@ -24,6 +24,7 @@ header_pages:
 - about.md
 - publications.md
 - blog.md
+- CV.pdf
 
 # Build settings
 theme: minima
