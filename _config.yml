@@ -24,7 +24,7 @@ header_pages:
 - about.md
 - publications.md
 - blog.md
-- CV.md
+- [CV](https://mkowal2.github.io/images/Matthew_Kowal_CV_onecol.pdf)
 
 # Build settings
 theme: minima
