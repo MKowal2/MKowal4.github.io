@@ -15,11 +15,11 @@ Welcome to my website & blog (link at the top)! My name is Matthew Kowal. I am a
 
 ## News
 
-* **September, 2020** - Starting PhD under the supervision of [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/) @ [Ryerson Vision Lab](https://ryersonvisionlab.github.io/).
+* **September, 2020** - Starting my PhD under the supervision of [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/) @ [Ryerson Vision Lab](https://ryersonvisionlab.github.io/)!
 
-* **August, 2020** - Paper accepted to [BMVC 2020](https://bmvc2020.github.io/) as an Oral presentation! Category Specific Feature Binding for Semantic Segmentation and Adversarial Robustness. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). Pre-print coming soon!
+* **August, 2020** - Paper accepted to [BMVC 2020](https://bmvc2020.github.io/) as an Oral presentation! Category Specific Feature Binding for Semantic Segmentation and Adversarial Robustness. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Paper](https://arxiv.org/abs/2008.05667)
 
-* **May, 2020** - Awarded Ontario Graduate Scholarship (OGS). Accepted.
+* **May, 2020** - Awarded Ontario Graduate Scholarship (OGS)! (Accepted)
 
 * **March, 2020** - Started role as AI Scientist in Residence @ [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups.
 
