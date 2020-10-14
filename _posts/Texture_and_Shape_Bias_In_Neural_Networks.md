@@ -5,35 +5,34 @@ author: "Matthew Kowal"
 meta: "Springfield"
 --- 
 
-intro /
-Texture bias in general /
-Proof that texture 'bias' exists from first paper /
-What is 'bias' /
+intro: motivation, why do we care about learning what spurious correlations are being learned if the performance is good?/
+Proof that CNNs classificy based on textures from Approximating paper/
 ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness / 
+  What is 'bias' /
 Exploring the Origins and Prevalence of Texture Bias in Convolutional Neural Networks / 
-Future Work / 
+Future Work: Flaws of 'bias' metric, how can we actually quantify the amount of shape information contained in CNNs?/ 
 Conclusion
 
 ### Aeroplanes and ConvNets
 
-When we design systems using AI, it is important that our models are learning *exactly* what we want them to learn. Particularly for systems in which failure is an absolute disaster (e.g., nuclear power plants, data centers, self driving car visual systems, etc.), it is crucial to understand exactly where failure cases are prone to occur and why do they occur in the first place. Only when we understand our systems can we focus our energy into designing them in a safe way, robust to failures. Yann LeCunn recently [made a twitter thread](https://twitter.com/ylecun/status/1225122824039342081) about how we don't actually fully understand the physics behind the reason why airplanes can fly, pointing out that there isn't a "casual" explination for it. While I appreciate his point, I think there is a large difference between our understanding of airplanes (which hardly changes over time) and our understanding of neural networks (which seems to change drastically day by day). 
+When we design systems using AI, it is important that our models are learning *exactly* what we want them to learn. Particularly for systems in which failure is an absolute disaster (e.g., nuclear power plants, data centers, self driving car visual systems, etc.), it is crucial to understand where failure cases are prone to occur and why they occur. Only when we understand our systems can we focus our energy into designing them in a safe way, robust to failures. Yann LeCunn recently [made a twitter thread](https://twitter.com/ylecun/status/1225122824039342081) about how we don't actually fully understand the physics behind the reason why aeroplanes can fly, pointing out that there isn't a "casual" explination for it. While I appreciate his point, I would argue there is a large difference between our understanding of aeroplanes, which hardly changes over time and yet aeroplanes rarely ever malfunction, and our understanding of neural networks, which is dynamic and the performance is accordingly unreliable for various applications. 
 
-It's true that we cannot causally explain every mechanism behind airplane flight, but at the same time, we are not surprised by massive revelations in the physics of existing commercial aeroplanes every year since their creation. Yes, there are new designs and research being done in aerodynamics, but I am reffering to the fact that that we rarely see airplanes flying in unexpected ways, even though there are thousands of flights a day. In the case of neural networks, we are still finding that our models are acting in very unexpected ways even for the simplest of tasks. It happens time and time again, where it seems like the community has a grasp on how and what neural networks are learning in their internal representations, followed by an earth shattering revelation that neural networks might not be understanding what we think they are.
+It's true that we cannot causally explain every mechanism behind airplane flight, but at the same time, we are rarely surprised by massive revelations in the physics of existing commercial aeroplanes every year since their creation. Yes, there are new designs and research being done in aerodynamics, but I am reffering to the fact that that we rarely see airplanes flying in unexpected ways (there are around 65 million flights a year and only approximately 100 accidents). In the case of neural networks, we are still finding that our models are acting in very unexpected ways even for the simplest of tasks. It happens time and time again, where it seems like the community has a grasp on how and what neural networks are learning in their internal representations, followed by an earth shattering revelation that neural networks might not be understanding what we think they are.
 
 ### CNNs Learn Hierarchical Features
 
-It's well studied that both artificial CNNs and biological neural networks learn visual features in a hierarchical fashion (see [Visualizing Higher-Layer Features of a Deep Network](https://pdfs.semanticscholar.org/65d9/94fb778a8d9e0f632659fb33a082949a50d3.pdf) and [Neuroanatomy, Visual Cortex
+It's well studied that both convolutional neural networks (CNNs) and biological neural networks learn visual features in a hierarchical fashion (see [Visualizing Higher-Layer Features of a Deep Network](https://pdfs.semanticscholar.org/65d9/94fb778a8d9e0f632659fb33a082949a50d3.pdf) and [Neuroanatomy, Visual Cortex
 ](https://www.ncbi.nlm.nih.gov/books/NBK482504/)). Earlier layers learn kernels that activate from lower level stimuli like edges and blobs, while deeper layers learn to activate from more complex shapes and objects (depending on the task at hand). For example, take a look at the following image.
 
 <p align="center">
   <img src="/images/feature_hierarchy.png"> This is what you get when you maximize the activation of certain layers. Later layers are highly activated by increasingly complex visual stimuli. (Images are [from Google](https://distill.pub/2017/feature-visualization/)).
 </p>
 
-You can clearly see that different layers are maximally activated by a wide range of inputs, which become increasingly complex as the layers get deeper. Now although this seems like sufficient evidence that neural networks trained for image classification learn complex shapes (see layers Mixed4d and Mixed4e), it is not quite that simple. 
+You can clearly see that different layers are maximally activated by a wide range of inputs, which become increasingly complex as the layers get deeper. Now although this seems like strong evidence that neural networks trained for image classification learn complex shapes (see layers Mixed4d and Mixed4e), it is not quite that simple. 
 
 ### Bag-of-Local Features
 
-The receptive field of a neural network, is the [region in the input space that a particular CNN’s feature is looking at (i.e. be affected by).](https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807) Many of the state-of-the-art neural networks used these days have large receptive fields, larger than the actual image in fact, which allow the networks to learn correlations between large features in the image space. For example, if you want your network to be able to destinguish between a dog, a sled, and a dog sled, it clearly need to be able to identify that there is both a dog, or a sled, or both in the image, and identify the spatial relationship to the other objects in the image, in this case it could be that the dog is attached to the sled with reigns. 
+The receptive field of a neural network, is the [region in the input space that a particular CNN’s feature is looking at (i.e. be affected by)](https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807). Many of the state-of-the-art neural networks used these days have large receptive fields, larger than the actual image in fact, which allow the networks to learn correlations between large features in the image space. For example, if you want your network to be able to destinguish between a dog, a sled, and a dog sled, it clearly need to be able to identify that there is both a dog, or a sled, or both in the image, and identify the spatial relationship to the other objects in the image, in this case it could be that the dog is attached to the sled with reigns. 
 
 <p align="center">
   <img src="/images/receptive_field_table.png"> 
