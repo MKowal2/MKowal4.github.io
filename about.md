@@ -8,6 +8,9 @@ I completed a Bachelors of Applied Science (B.A.Sc) in [Applied Mathematics and 
 
 I worked for ~14 months (and the two summers between 2nd - 4th year as an intern) at [Morrison Hershfield](www.morrisonhershfield.com) after graduating as a mechanical design engineer (in training). I worked on a team with mechanical, evironmental, electrical, and control engineers on buildings, labratories, and condos. Some projects I worked on were: 1 Bloor East Condominium, Guelph Ontario Veterinarian College - Production Animal Isolation Facility, TTC McNicoll Bus Garage, and a University of Toronto Sandford Rooftop Physics Lab.
 
-I then joined the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) in September 2018 as an MSc co-supervised by [Dr. Neil Bruce](https://cs.ryerson.ca/~bruce/) and [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/). My research has focused on action recognition and weakly supervised semantic segmentation. I recently started my PhD in computer vision under the sole supervision of [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/).
+I then obtained my M.Sc at the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) in August 2020 under the co-supervision of [Dr. Neil Bruce](https://cs.ryerson.ca/~bruce/) and [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/). My M.Sc thesis focused on action recognition and weakly supervised semantic segmentation. I had the opportunity to work as a Scientist in Residence at [NextAI](https://www.nextcanada.com/next-ai/) where I worked closely with multiple AI-based startups in Toronto. My role was essentially a research consultant where I would help the teams implement and understand state-of-the-art research papers which relate to their business or product. Here are a short list of the companies I worked with: (Origami-XR)(https://www.origami-xr.com/), [NoLeak Defence](https://www.noleak.io/), [Argentum](https://www.argentum.ai/).
 
-My hobbies include health and fitness, competitive Super Smash Bros. Melee, tea, and progressive house music.
+
+In September 2020, I started my PhD under the supervision of [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/). My research focuses on building interpretable computer vision algorithms.
+
+My hobbies include health and fitness, competitive Super Smash Bros. Melee, birds, and progressive house music.
