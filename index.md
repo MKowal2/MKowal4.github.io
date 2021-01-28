@@ -15,6 +15,8 @@ Welcome to my website & blog (link at the top)! My name is Matthew Kowal. I am a
 
 ## News
 
+* **August, 2020** - Paper accepted to [ICLR 2021](https://iclr.cc/)! Shape or Texture: Understanding Discriminative Features in CNNs. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), Patrick Esser, [Sen Jia](https://scholar.google.com/citations?user=WOsy1foAAAAJ&hl=en), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/people/bommer), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Paper](https://arxiv.org/abs/2008.05667)
+
 * **September, 2020** - Starting my PhD under the supervision of [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/) @ [Ryerson Vision Lab](https://ryersonvisionlab.github.io/)!
 
 * **August, 2020** - Paper accepted to [BMVC 2020](https://bmvc2020.github.io/) as an Oral presentation! Category Specific Feature Binding for Semantic Segmentation and Adversarial Robustness. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Paper](https://arxiv.org/abs/2008.05667)
