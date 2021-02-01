@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-- Position, Padding and Predictions: A Deeper Look at Position Information in CNNs. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/),[Sen Jia](https://github.com/SenJia), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Abstract](https://arxiv.org/abs/2101.12322). [PDF](https://arxiv.org/pdf/2101.12322.pdf). (Under Review)
+- Position, Padding and Predictions: A Deeper Look at Position Information in CNNs. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/),[Sen Jia](https://github.com/SenJia), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Abstract](https://arxiv.org/abs/2101.12322). [PDF](https://arxiv.org/pdf/2101.12322.pdf). (Under Review @ TPAMI)
 
 - [ICLR 2021](https://iclr.cc/) - Shape or Texture: Understanding Discriminative Features in CNNs. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Patrick Esser](https://scholar.google.com/citations?user=ang8MoQAAAAJ&hl=en), [Sen Jia](https://github.com/SenJia), [Bjorn Ommer](https://hci.iwr.uni-heidelberg.de/people/bommer), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Abstract](https://arxiv.org/abs/2101.11604). [PDF](https://arxiv.org/pdf/2101.11604.pdf).
 
