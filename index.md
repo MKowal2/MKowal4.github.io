@@ -8,9 +8,7 @@
 layout: home
 ---
 
-![<img src="profile.jpg" width="150"/>](images/profile.jpg)
-
-<img src="images/profile.jpg" width="200" height="200">
+<img src="images/profile.jpg" width="200">
 
 
 
