@@ -8,7 +8,7 @@
 layout: home
 ---
 
-![Ryerson](images/profile.jpg){ width=50% }
+![<img src="profile.jpg" width="250"/>](images/profile.jpg){ width=50% }
 
 Welcome to my website & blog (link at the top)! My name is Matthew Kowal. I am a PhD student in the [Ryerson Vision Lab](https://ryersonvisionlab.github.io/) in Toronto, supervised by [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/). My research focuses on how we can better understand the world around us using neural networks and unlabelled data. In particular, I am currently working on designing interpretable deep learning algorithms for computer vision. I write blog posts every so often talking about things related to my research.
 
