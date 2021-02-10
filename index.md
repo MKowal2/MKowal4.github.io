@@ -19,6 +19,8 @@ My name is Matthew Kowal, welcome to my website (and blog - link at the top). I 
 
 ## News
 
+* **January 2021** - Started role as Technical Lead @ [Vector Institute](https://vectorinstitute.ai/), Toronto Canada. I am leading a group of six data scientists from industry to complete a conference-level video understanding project which will be presented at the Computer Vision Symposium later in 2021.
+
 * **January 2021** - Paper accepted to [ICLR 2021](https://iclr.cc/)! Shape or Texture: Understanding Discriminative Features in CNNs. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Patrick Esser](https://hci.iwr.uni-heidelberg.de/users/pesser), [Sen Jia](https://scholar.google.com/citations?user=WOsy1foAAAAJ&hl=en), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/people/bommer), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Paper](https://arxiv.org/abs/2101.11604)
 
 * **September, 2020** - Starting my PhD under the supervision of [Dr. Kosta Derpanis](https://cs.ryerson.ca/~kosta/) @ [Ryerson Vision Lab](https://ryersonvisionlab.github.io/)!
