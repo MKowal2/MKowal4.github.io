@@ -10,7 +10,7 @@ layout: home
 
 
 <p align="center">
-  <img src="images/profile.jpg" width="350">
+  <img src="images/profile.png" width="350">
 </p>
 
 
