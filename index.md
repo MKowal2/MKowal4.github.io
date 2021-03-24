@@ -19,6 +19,8 @@ My name is Matthew Kowal, welcome to my website (and blog - link at the top). I 
 
 ## News
 
+* **March 2021** - I co-founded the [Ontario Workshop on Computer Vision](https://owcv2021.github.io/) (OWCV). the inaugural workshop will take place in April 2021!
+
 * **February 2021** - Gave a live coding tutorial on Deep Learning for Action Recognition at the [Vector Institute](https://vectorinstitute.ai/). 
 
 * **January 2021** - Started role as Technical Lead @ [Vector Institute](https://vectorinstitute.ai/), Toronto Canada. I am leading a group of six data scientists from industry to complete a conference-level video understanding project which will be presented at the Computer Vision Symposium later in 2021.
