@@ -19,6 +19,8 @@ My name is Matthew Kowal, welcome to my website (and blog - link at the top). I 
 
 ## News
 
+* **April, 2021** - Internship: AI Scientist in Residence @ [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups with a focus on video analysis.
+
 * **March 2021** - I have been selected as a Vector Institute Postgraduate Affiliate and will be serving this role for the next two years! See the [announcement here.](https://vectorinstitute.ai/2021/03/31/vector-welcomes-new-researchers-to-postgraduate-affiliate-program/)
 
 * **March 2021** - I co-founded the [Ontario Workshop on Computer Vision](https://owcv2021.github.io/) (OWCV). The inaugural workshop will take place in April 2021!
