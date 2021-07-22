@@ -19,6 +19,9 @@ My name is Matthew Kowal, welcome to my website (and blog - link at the top). I 
 
 ## News
 
+
+* **January 2021** - Paper accepted to [ICCV 2022](http://iccv2021.thecvf.com/home)! More details and Arxiv version coming soon :)
+
 * **April, 2021** - Internship: AI Scientist in Residence @ [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups with a focus on video analysis.
 
 * **March 2021** - I have been selected as a Vector Institute Postgraduate Affiliate and will be serving this role for the next two years! See the [announcement here.](https://vectorinstitute.ai/2021/03/31/vector-welcomes-new-researchers-to-postgraduate-affiliate-program/)
