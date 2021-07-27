@@ -22,7 +22,7 @@ My name is Matthew Kowal, welcome to my website (and blog - link at the top). I 
 
 * **July 2021** - Paper accepted to [ICCV 2021](http://iccv2021.thecvf.com/home)! More details and Arxiv version coming soon :)
 
-* **July 2021** - Our BMVC 2020 paper, [Category Specific Feature Binding for Semantic Segmentation and Adversarial Robustness](https://arxiv.org/abs/2008.05667), was one of the papers invited to submit to a special issue of the International Journal of Computer Vision (IJCV) for BMVC 2020 Best Papers.
+* **July 2021** - Our BMVC 2020 paper, [Category Specific Feature Binding for Semantic Segmentation and Adversarial Robustness](https://arxiv.org/abs/2008.05667), was invited to submit to a special issue of the International Journal of Computer Vision (IJCV) for BMVC 2020 Best Papers.
 
 * **April, 2021** - Internship: AI Scientist in Residence @ [NextAI](https://www.nextcanada.com/next-ai/), Toronto, Canada; technical and R&D consultant for multiple startups with a focus on video analysis.
 
