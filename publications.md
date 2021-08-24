@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-- Paper accepted to ICCV 202! More details and Arxiv version coming soon :)
+- [ICCV 2021](http://iccv2021.thecvf.com/home) - Global Pooling, More than Meets the Eye: Position Information is Encoded Channel-Wise in CNNs. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Sen Jia](https://scholar.google.com/citations?user=WOsy1foAAAAJ&hl=en), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Paper](https://arxiv.org/abs/2108.07884) and [Code](https://github.com/islamamirul/PermuteNet).
 
 - Position, Padding and Predictions: A Deeper Look at Position Information in CNNs. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/),[Sen Jia](https://github.com/SenJia), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Abstract](https://arxiv.org/abs/2101.12322). [PDF](https://arxiv.org/pdf/2101.12322.pdf). (Under Review @ [TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34))
 
