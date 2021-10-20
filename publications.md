@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-- [BMVC 2021](https://www.bmvc2021.com/) - Simpler Does It: Generating Semantic Labels with Objectness Guidance. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). Paper coming soon!
+- [BMVC 2021](https://www.bmvc2021.com/) - Simpler Does It: Generating Semantic Labels with Objectness Guidance. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Sen Jia](https://scholar.google.com/citations?user=WOsy1foAAAAJ&hl=en), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). Paper coming soon!
 
 - [ICCV 2021](http://iccv2021.thecvf.com/home) - Global Pooling, More than Meets the Eye: Position Information is Encoded Channel-Wise in CNNs. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Sen Jia](https://scholar.google.com/citations?user=WOsy1foAAAAJ&hl=en), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Paper](https://arxiv.org/abs/2108.07884) and [Code](https://github.com/islamamirul/PermuteNet).
 
