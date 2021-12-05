@@ -19,7 +19,7 @@ My name is Matthew Kowal, welcome to my website (and blog - link at the top). I 
 
 ## News
 
-* **October, 2021** - Paper accepted to [BMVC 2021](https://www.bmvc2021.com/)! Simpler Does It: Generating Semantic Labels with Objectness Guidance. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Sen Jia](https://scholar.google.com/citations?user=WOsy1foAAAAJ&hl=en), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). Paper coming soon!
+* **October, 2021** - Paper accepted to [BMVC 2021](https://www.bmvc2021.com/)! Simpler Does It: Generating Semantic Labels with Objectness Guidance. [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Sen Jia](https://scholar.google.com/citations?user=WOsy1foAAAAJ&hl=en), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), and [Neil Bruce](https://www.cs.ryerson.ca/~bruce/). [Paper](https://arxiv.org/abs/2110.10335).
 
 * **October, 2021** - Abstract accepted as oral presentation to the Vector Institute's [Computer Vision Symposium](https://vectorinstitute.ai/event/computer-vision-symposium/)! Understanding Spatial and Temporal Biases in Deep Spatiotemporal Models. [Matthew Kowal](https://mkowal2.github.io/), [Mennatullah Siam](http://webdocs.cs.ualberta.ca/~mennatul/), [Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Neil Bruce](https://www.cs.ryerson.ca/~bruce/), [Kosta Derpanis](https://www.cs.ryerson.ca/~kosta/), [Richard Wildes](http://www.cse.yorku.ca/~wildes/).
 
